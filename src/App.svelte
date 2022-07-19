@@ -8,6 +8,8 @@
 <main>
   <Tabs/>
 
+  <Menu/>
+
 </main>
 
 

@@ -4,27 +4,30 @@
     function toggle_menu() {
         if($menu_width === 0){
             $menu_width = 300;
-        } else if($menu_width === 300) {
-            $menu_width = 0;
         }
     }
 </script>
 
 <main>
-    <div class="top" on:click={toggle_menu}>top</div>
+    <div class="top">
+        <span class="menu" on:click={toggle_menu}>menu</span>
+        <span>feed</span>
+    </div>
 
-    <div class="bottom">bottom</div>
+    <div class="bottom">
+        <span>bottom tabs</span>
+    </div>
 </main>
 
 <style>
     div {
         font-size: 1.5rem;
-        background-color: #1a1b27;
+        background-color: #0c0c12;
         color: #f9f9f9;
         position: fixed;
         width: 100%;
-        height: 40px;
-        line-height: 40px;
+        height: 50px;
+        line-height: 50px;
     }
 
     .top {
@@ -33,6 +36,15 @@
 
     .bottom {
         bottom: 0px;
+    }
+
+    .menu {
+        left: 10px;
+        position: absolute;
+    }
+
+    span {
+        cursor: pointer;
     }
 
 </style>

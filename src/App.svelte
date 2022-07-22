@@ -6,9 +6,9 @@
 </script>
 
 <main>
-  <Tabs/>
-
   <Menu/>
+  <Tabs/>
+  <Feed/>
 
 </main>
 

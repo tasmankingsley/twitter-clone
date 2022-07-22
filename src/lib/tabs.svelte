@@ -2,9 +2,9 @@
     import { menu_width } from './stores';
 
     function toggle_menu() {
-        if($menu_width = 0){
+        if($menu_width === 0){
             $menu_width = 300;
-        } else if($menu_width = 300) {
+        } else if($menu_width === 300) {
             $menu_width = 0;
         }
     }

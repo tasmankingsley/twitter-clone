@@ -12,7 +12,7 @@
 <main>
     <div class="menu" style:width="{$menu_width}px">
         {#if $menu_width === 300 }
-        <div class="menu_options" in:fly={{y: -400, duration: 400}}>
+        <div class="menu_options" in:fly={{x: -400, duration: 500}}>
             <span on:click={toggle_menu}>x</span>
             <span>option</span>
             <span>option</span>

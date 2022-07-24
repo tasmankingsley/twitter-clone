@@ -10,7 +10,7 @@ main {
     place-content: center;
 }
 div {
-    background-color: #efefed;
+    background-color: #1e1f29;
     border: #fff 1px solid;
     height: 100vh;
     width: 800px;
